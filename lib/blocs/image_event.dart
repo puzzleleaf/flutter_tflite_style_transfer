@@ -7,5 +7,3 @@ abstract class ImageEvent with _$ImageEvent {
   const factory ImageEvent.transferImage(String styleImagePath) = TransferImage;
   const factory ImageEvent.resetImage() = ResetImage;
 }
-
-

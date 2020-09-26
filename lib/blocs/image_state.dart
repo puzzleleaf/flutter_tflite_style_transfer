@@ -10,9 +10,9 @@ abstract class ImageState with _$ImageState {
   }) = _ImageState;
 
   factory ImageState.initial() => ImageState(
-        originImage: null,
-        transferImage: null,
-        modelLoaded: false,
-        isLoading: false,
-      );
+    originImage: null,
+    transferImage: null,
+    modelLoaded: false,
+    isLoading: false,
+  );
 }

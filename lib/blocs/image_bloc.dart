@@ -1,11 +1,8 @@
 import 'dart:async';
 import 'dart:typed_data';
-
 import 'package:bloc/bloc.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter_tflite_style_transfer/services/image/image_facade.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:meta/meta.dart';
+import 'package:tflitestyletransfer/services/image/image_facade.dart';
 
 part 'image_event.dart';
 
@@ -20,8 +17,8 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
 
   @override
   Stream<ImageState> mapEventToState(
-    ImageEvent event,
-  ) async* {
+      ImageEvent event,
+      ) async* {
     yield* event.map(
       loadModel: (event) async* {
         await _imageFacade.loadModel();

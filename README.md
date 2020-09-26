@@ -1,4 +1,4 @@
-# flutter_tflite_style_transfer
+# tflitestyletransfer
 
 A new Flutter application.
 

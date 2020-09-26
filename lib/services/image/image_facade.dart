@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:flutter_tflite_style_transfer/services/image/image_picker_facade.dart';
-import 'package:flutter_tflite_style_transfer/services/image/image_transfer_facade.dart';
+import 'package:tflitestyletransfer/services/image/image_picker_facade.dart';
+import 'package:tflitestyletransfer/services/image/image_transfer_facade.dart';
 
 class ImageFacade {
   ImagePickerFacade _imagePickerFacade = ImagePickerFacade();

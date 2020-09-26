@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_tflite_style_transfer/blocs/image_bloc.dart';
+import 'package:tflitestyletransfer/blocs/image_bloc.dart';
 
 class TransferPage extends StatefulWidget {
   @override
@@ -109,8 +109,8 @@ class _TransferPageState extends State<TransferPage> {
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: Colors.black.withOpacity(0.6),
-          borderRadius: BorderRadius.circular(20)
+            color: Colors.black.withOpacity(0.6),
+            borderRadius: BorderRadius.circular(20)
         ),
         child: Text(
           "Model Running...",

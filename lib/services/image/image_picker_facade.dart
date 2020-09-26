@@ -1,18 +1,18 @@
 import 'dart:typed_data';
-import 'package:image_picker/image_picker.dart';
+import 'package:multi_image_picker/multi_image_picker.dart';
 
 class ImagePickerFacade {
-  final ImagePicker _picker = ImagePicker();
-
   Future<Uint8List> loadImage() async {
-    final pickedFile = await _picker.getImage(
-      source: ImageSource.gallery,
+    var resultList = await MultiImagePicker.pickImages(
+      maxImages: 1,
+      enableCamera: false,
     );
-
-    if (pickedFile != null) {
-      return pickedFile.readAsBytes();
-    } else {
+    if (resultList.length == 0) {
       return null;
+    } else {
+      var asset = resultList.single;
+      var byteData = await asset.getByteData();
+      return byteData.buffer.asUint8List();
     }
   }
 }

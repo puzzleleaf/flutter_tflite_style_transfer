@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_tflite_style_transfer/blocs/image_bloc.dart';
-import 'package:flutter_tflite_style_transfer/pages/home_page.dart';
-import 'package:flutter_tflite_style_transfer/pages/transfer_page.dart';
-import 'package:flutter_tflite_style_transfer/services/image/image_facade.dart';
+import 'package:tflitestyletransfer/blocs/image_bloc.dart';
+import 'package:tflitestyletransfer/pages/home_page.dart';
+import 'package:tflitestyletransfer/pages/transfer_page.dart';
+import 'package:tflitestyletransfer/services/image/image_facade.dart';
 
 void main() {
   runApp(BlocProvider(
