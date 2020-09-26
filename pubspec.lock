@@ -502,7 +502,7 @@ packages:
   tflite_flutter:
     dependency: "direct main"
     description:
-      path: "plugin/tflite_flutter_plugin"
+      path: "plugins/tflite_flutter_plugin"
       relative: true
     source: path
     version: "0.5.0"
