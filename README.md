@@ -1,16 +1,39 @@
-# tflitestyletransfer
+# Flutter Tensorflow Lite Style Transfer
 
-A new Flutter application.
+Artistic Style Transfer with TensorFlow Lite
+<p align="center">
+ <img src="readme/main.gif" width='1024'/>
+</p>
 
-## Getting Started
+<p align="center">
+ <img src="readme/1.png" width='1024'/>
+</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+ <img src="readme/2.png" width='1024'/>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Youtube
+[Flutter TensorFlow Lite Style Transfer - Speed Code](https://youtu.be/Qsqtb1mUguY)
+<p align="center">
+ <img src="readme/youtube.png" width='1024'/>
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Reference
+* About Style Transfer : https://www.tensorflow.org/lite/models/style_transfer/overview
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages
+* flutter_bloc : https://pub.dev/packages/flutter_bloc
+
+* freezed : https://pub.dev/packages/freezed
+
+* freezed_annotation : https://pub.dev/packages/freezed_annotation
+
+* build_runner : https://pub.dev/packages/build_runner
+
+* image : https://pub.dev/packages/image
+
+* multi_image_picker : https://pub.dev/packages/multi_image_picker
+
+* tflite_flutter : https://pub.dev/packages/tflite_flutter    
+(The plug-in has a problem with iOS 14 and has been downloaded locally.)
