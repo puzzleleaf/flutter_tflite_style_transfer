@@ -1,5 +1,7 @@
 # Flutter Tensorflow Lite Style Transfer
 
+<a href="https://github.com/margaretmz/awesome-tensorflow-lite#computer-vision"><img src="https://img.shields.io/badge/awesome-tensorflow--lite-orange.svg?longCache=true" alt="Awesome Tensorflow Lite"></a>
+
 Artistic Style Transfer with TensorFlow Lite
 <p align="center">
  <img src="readme/main.gif" width='1024'/>
