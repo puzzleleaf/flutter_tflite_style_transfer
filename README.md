@@ -15,6 +15,10 @@ Artistic Style Transfer with TensorFlow Lite
  <img src="readme/2.png" width='1024'/>
 </p>
 
+## TFLite Package Initial setup
+To use the tflite model, follow the guide on the page below.    
+- https://pub.dev/packages/tflite_flutter#important-initial-setup
+
 ## Youtube
 [Flutter TensorFlow Lite Style Transfer - Speed Code](https://youtu.be/Qsqtb1mUguY)
 <p align="center">
